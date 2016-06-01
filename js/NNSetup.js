@@ -24,7 +24,7 @@ function Net(size, weights, biases){
 };
 
 var sizes, weights, biases;
-var json_req = $.getJSON( "https://raw.githubusercontent.com/AlexanderSwed/files/master/set.json", function(data) {
+var json_req = $.getJSON( "https://raw.githubusercontent.com/AlexanderSwed/files/master/set1.json", function(data) {
   sizes = data.sizes;
   weights = data.weights;
   biases = data.biases;
