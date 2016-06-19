@@ -20,7 +20,7 @@ $(document).ready(function() {
     //var blob = new Blob([img_array], {type: "application/json"});
     //var saveAs = window.saveAs;
     //saveAs(blob, "my_outfile.json");
-    $('#drawCanvas').clearCanvas();
+    //$('#drawCanvas').clearCanvas();
     $('#resizedCanvas').clearCanvas();
     return img_array;
 }
